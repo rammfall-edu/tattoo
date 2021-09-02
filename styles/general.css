@@ -1,0 +1,19 @@
+body,
+html {
+    font-size: 10px;
+    font-family: 'Roboto Slab', sans-serif;
+    background-color: #060A0B;
+    color: white;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-small {
+    width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+}
