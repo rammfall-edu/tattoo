@@ -41,3 +41,18 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
+
+.button {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    background-color: #DA3414;
+    border-radius: 8px;
+    padding: 25px 43px;
+}
+
+.button-sm {
+    padding: 16px 38px;
+}

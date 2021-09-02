@@ -1,0 +1,64 @@
+.services {
+    padding-bottom: 223px;
+    padding-top: 96px;
+}
+
+.services h2 {
+    margin-bottom: 59px;
+}
+
+.services ul {
+    display: flex;
+    gap: 84px;
+    justify-content: space-between;
+}
+
+.services li {
+    width: 271px;
+    height: 340px;
+    background-size: cover;
+    position: relative;
+    padding: 33px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .3s;
+}
+
+.services li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: background-color .3s;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.services li:hover::before {
+    background-color: transparent;
+}
+
+.services li h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.32;
+    position: relative;
+}
+
+.services li a {
+    position: relative;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s;
+}
+.services li:hover {
+  transform: scale(1.18);
+}
+
+.services li:hover a {
+    visibility: visible;
+    opacity: 1;
+}
