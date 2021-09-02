@@ -1,0 +1,55 @@
+.about {
+    padding-top: 173px;
+    padding-bottom: 35px;
+}
+
+.about > div:first-child {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 174px;
+}
+
+.about img {
+    width: 500px;
+}
+
+.about h2 {
+    margin-bottom: 23px;
+}
+
+.about-content p {
+    font-size: 2rem;
+    line-height: 2;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.about p:last-child {
+    margin-bottom: 0;
+}
+
+.advantages h3 {
+    color: #DA3414;
+    letter-spacing: 0.05em;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 62px;
+}
+
+.advantages ul {
+    display: flex;
+    gap: 113px;
+}
+
+.advantages h4 {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 6px;
+}
+
+.advantages p {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.39;
+}
