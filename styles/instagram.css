@@ -1,0 +1,38 @@
+.instagram {
+    padding-top: 135px;
+    padding-bottom: 123px;
+}
+
+.instagram h2 {
+    margin-bottom: 33px;
+}
+
+.instagram p {
+    margin-bottom: 29px;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 300;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.instagram ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.instagram img {
+    width: 100%;
+}
+
+.instagram a {
+    display: inline-block;
+}
+
+.center {
+    text-align: center;
+}
