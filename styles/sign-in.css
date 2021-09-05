@@ -1,0 +1,60 @@
+.sign-in {
+    padding-top: 52px;
+    padding-bottom: 36px;
+    text-align: center;
+}
+
+.sign-in h2 {
+    margin-bottom: 29px;
+}
+
+.sign-in-content {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sign-in p:first-of-type {
+    font-size: 2rem;
+    line-height: 1.25;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+form {
+    margin-bottom: 11px;
+    width: 370px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+input {
+    flex-grow: 1;
+    background-color: white;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: #000000;
+    font-weight: 500;
+    padding: 10px 15px;
+}
+
+button {
+    min-width: 100px;
+    background-color: #DA3414;
+    color: white;
+    font-size: 1.8rem;
+    line-height: 1.11;
+}
+
+input::placeholder {
+    font-weight: 300;
+}
+
+.sign-in p:last-child {
+    font-size: 1.6rem;
+    line-height: 1.25;
+    font-weight: 300;
+}
